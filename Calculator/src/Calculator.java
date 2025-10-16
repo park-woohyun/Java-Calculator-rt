@@ -26,7 +26,7 @@ public class Calculator {
     }
 
     public int divide(){
-        result =0;
+        result = 0;
         int quotient = num1;
         while (quotient >= num2){
             quotient -= num2;
