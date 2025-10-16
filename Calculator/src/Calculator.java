@@ -20,18 +20,18 @@ public class Calculator {
 
     public int multiply(){
         result = 0;
-        for (int i = 0; i<num2; i++)
-            result += num1;
+//        for (int i = 0; i<num2; i++)
+//            result += num1;
         return result;
     }
 
     public int divide(){
-        result =0;
-        int quotient = num1;
-        while (quotient >= num2){
-            quotient -= num2;
-            result ++;
-        }
+        result = 0;
+//        int quotient = num1;
+//        while (quotient >= num2){
+//            quotient -= num2;
+//            result ++;
+//        }
         return result;
     }
 
