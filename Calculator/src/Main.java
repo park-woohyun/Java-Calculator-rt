@@ -33,7 +33,7 @@ public class Main {
 
         ScientificCalculator calc_mod = new ScientificCalculator();
         calc_mod.setNumbers(num1, num2);
-        calc_mod.divide();
+        calc_mod.mod();
         calc_mod.displayResult("%");
 
     }
